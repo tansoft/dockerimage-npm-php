@@ -1,6 +1,6 @@
 FROM tansoft/openresty-php:latest
 
-RUN apk add make git npm; \
+RUN apk add make git npm;\
         npm install -g \
         babel-cli cordova \
         eslint express http-proxy \
