@@ -6,7 +6,7 @@
 FROM tansoft/openresty-php:latest
 
 #electron
-RUN apk add npm; \
+RUN apk add make git npm; \
         npm install -g \
         babel-cli cordova \
         eslint express http-proxy \
